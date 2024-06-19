@@ -54,6 +54,9 @@ function testMultiplyArray() { //eslint-disable-line
   }
 }
 
+//DRGG
+testMultiplyArray();
+
 function testMultiplyAnyArray() { //eslint-disable-line
   if (multiplyAnyArray(testDynamicArray)[0] === 120 && multiplyAnyArray(testDynamicArray)[1] === 'The numbers 1,2,3,4,5 have a product of 120.') {
     console.log('%c TEST FOR multiplyAnyArray() PASSES', 'color: green');
