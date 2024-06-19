@@ -21,6 +21,7 @@ function testMultiply() { //eslint-disable-line
   }
 }
 
+//DRGG
 testMultiply();
 
 function testSumAndMultiply() { //eslint-disable-line
@@ -31,6 +32,9 @@ function testSumAndMultiply() { //eslint-disable-line
   }
 }
 
+//DRGG
+testSumAndMultiply();
+
 function testSumArray() { //eslint-disable-line
   if (sumArray(testArray)[0] === 9 && sumArray(testArray)[1] === '2,3,4 was passed in as an array of numbers, and 9 is their sum.') {
     console.log('%c TEST FOR sumArray() PASSES', 'color: green');
@@ -38,6 +42,9 @@ function testSumArray() { //eslint-disable-line
     console.log('%c TEST FOR sumArray() FAILS', 'color: red');
   }
 }
+
+//DRGG
+testSumArray();
 
 function testMultiplyArray() { //eslint-disable-line
   if (multiplyArray(testArray)[0] === 24 && multiplyArray(testArray)[1] === 'The numbers 2,3,4 have a product of 24.') {
