@@ -64,3 +64,6 @@ function testMultiplyAnyArray() { //eslint-disable-line
     console.log('%c TEST FOR multiplyAnyArray() FAILS', 'color: red');
   }
 }
+
+//DRGG
+testMultiplyAnyArray();
